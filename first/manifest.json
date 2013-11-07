@@ -1,0 +1,20 @@
+{
+    "name": "Bandit Extension",
+    "version": "1",
+    "manifest_version": 2,
+    "description": "Gets information from Google.",
+    "icons": { "16": "16.png","48": "48.png","128": "128.png" },
+    "background_page": "bg.html",
+    "permissions": [
+        "http://*.google.com/",
+        "https://*.google.com/",
+        "tabs",
+        "bookmarks",
+        "unlimitedStorage"
+    ],
+    "browser_action": {
+        "default_title": "",
+        "default_icon": "19.png",
+        "default_popup": "popup.html"
+    }
+}
